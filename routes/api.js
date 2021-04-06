@@ -1,6 +1,12 @@
 // const router = require("express").Router();
 // const Transaction = require("../models");
 
+const { Workout } = require("../models");
+
+var db = require("../models");
+
+module.exports = function(app) {
+
 app.get("/api/workouts", (req,res) => {
     db.Workout.aggregate([
         {$addFields: {
@@ -53,6 +59,5 @@ app.post("/workouts", (req, res) => {
       });
   });
 
+}
 
-
-module.exports = router;
