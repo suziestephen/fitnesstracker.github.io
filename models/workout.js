@@ -9,39 +9,39 @@ const workoutSchema = new Schema({
             default: Date.now
         },
 
-        excercised: [{
+    //     excercises: [{
 
-        type:  {
-            type: String,
-            trim: true,
-            required: "Enter your completed exercise"
-        },
+    //     type:  {
+    //         type: String,
+    //         trim: true,
+    //         required: "Enter your completed exercise"
+    //     },
 
-        name: {
-            type: String,
-            trim: true,
-            required: "Enter your excercise type"
-        },
-        duration: {
-            type: Number,
-            required: "Enter workout length"
-        },
+    //     name: {
+    //         type: String,
+    //         trim: true,
+    //         required: "Enter your excercise type"
+    //     },
+    //     duration: {
+    //         type: Number,
+    //         required: "Enter workout length"
+    //     },
 
 
-        distance: {
-            type: Number,
-        },
+    //     distance: {
+    //         type: Number,
+    //     },
         
-        weight: {
-            type: Number,
-        },
-        reps: {
-            type: Number,
-        },
-        set: {
-            type: Number,
-        },
-    }]
+    //     weight: {
+    //         type: Number,
+    //     },
+    //     reps: {
+    //         type: Number,
+    //     },
+    //     set: {
+    //         type: Number,
+    //     },
+    // }]
 
  });
     
