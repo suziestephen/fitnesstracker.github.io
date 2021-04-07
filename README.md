@@ -9,6 +9,7 @@ If the exercise is a cardio exercise, I should be able to track my distance trav
 
 
   # Live Application
+  https://stormy-river-71357.herokuapp.com/?id=606d0e2ce5bb030015c5fc74
 
  ![image](https://user-images.githubusercontent.com/74234842/113798241-2a918300-9796-11eb-85b2-36d8232d42e0.png)
 
@@ -53,6 +54,7 @@ Using the link you can access the application via your browser. You are able to 
 
   # Deploy
  https://github.com/suziestephen/fitnesstracker.github.io <br>
+ https://stormy-river-71357.herokuapp.com/?id=606d0e2ce5bb030015c5fc74
 
   
 
